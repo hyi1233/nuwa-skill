@@ -14,8 +14,9 @@
 
 <br>
 
-[同事.skill](https://github.com/titanwings/colleague-skill) 蒸馏了同事怎么干活。<br>
-女娲蒸馏他们怎么思考。
+[同事.skill](https://github.com/titanwings/colleague-skill) 证明了蒸馏一个人是可行的。<br>
+那何必蒸馏同事？去蒸馏芒格、费曼、马斯克。<br>
+只需输入一个名字，女娲自动完成调研、提炼、验证全流程。
 
 [看效果](#效果示例) · [安装](#安装) · [它蒸馏了什么](#女娲蒸馏了什么) · [工作原理](#工作原理) · [**English**](#english)
 
@@ -80,18 +81,17 @@ npx skills add alchaincyf/nuwa-skill
 
 ## 女娲蒸馏了什么
 
-[同事.skill](https://github.com/titanwings/colleague-skill) 拆一个人为两层：**Work Skill**（能力）+ **Persona**（人格）。女娲拆的是更深的三层：
+蒸馏各领域最强的人，需要提取比日常工作习惯更深的东西。女娲提取六层：
 
-| | 同事.skill | 女娲 |
-|---|:---:|:---:|
-| **做什么**（工作习惯、流程） | ✅ | — |
-| **怎么说话**（语气、口癖） | ✅ | ✅ 表达DNA |
-| **怎么想**（心智模型、认知框架） | — | ✅ |
-| **怎么判断**（决策启发式） | — | ✅ |
-| **什么不做**（反模式、价值观底线） | — | ✅ |
-| **知道局限**（诚实边界） | — | ✅ |
+| 层次 | 说明 |
+|---|---|
+| **怎么说话** | 表达DNA——语气、节奏、用词偏好 |
+| **怎么想** | 心智模型、认知框架 |
+| **怎么判断** | 决策启发式 |
+| **什么不做** | 反模式、价值观底线 |
+| **知道局限** | 诚实边界 |
 
-一个是行为录像带，一个是认知操作系统。
+工作习惯可以靠流程文档传递，但让芒格和马斯克面对同一个问题做出不同判断的，是认知框架。女娲提取的是认知操作系统。
 
 ### 诚实边界
 
@@ -140,11 +140,11 @@ nuwa-skill/
 
 ## 背后的故事
 
-[同事.skill](https://github.com/titanwings/colleague-skill) 最近在GitHub爆火——把离职同事蒸馏成AI Skill，几天破5000星。思路很有意思，但蒸馏的还是行为层。
+[同事.skill](https://github.com/titanwings/colleague-skill) 最近在GitHub爆火——把离职同事蒸馏成AI Skill，几天破5000星。它证明了一件事：蒸馏一个人是完全可行的。
 
-同事.skill蒸馏——**做什么**和**怎么说话**。但让芒格和马斯克面对同一个问题做出不同判断的，不是行为习惯，是认知框架。
+既然我们有了蒸馏人的能力，为什么只蒸馏身边的同事？去蒸馏各领域最强的人。而且幸运的是，这些人通常留下了大量可以被蒸馏的材料——著作、演讲、访谈、社交媒体。这是对自己能力的极大补充。
 
-其实我之前就一直在蒸馏思维方式。芒格、费曼、Naval、马斯克、塔勒布，都蒸馏过。今天把方法论开源了。
+我之前就一直在做类似的事，但蒸馏的不是同事，是芒格、费曼、Naval、马斯克、塔勒布这些人。今天把方法论开源了。
 
 女娲不复制人。它提取认知操作系统。
 
@@ -185,9 +185,9 @@ MIT License © [花叔 Huashu](https://github.com/alchaincyf)
 
 > *"The next person you want to distill doesn't have to be a colleague."*
 
-**[colleague-skill](https://github.com/titanwings/colleague-skill)** distills what people **do**. **Nuwa** distills how they **think**.
+**[colleague-skill](https://github.com/titanwings/colleague-skill)** proved that distilling a person into an AI skill is viable. **Nuwa** asks: why stop at colleagues? Distill the best minds in every field — Munger, Feynman, Musk, Naval — people who conveniently left mountains of distillable material behind.
 
-Nuwa is a Claude Code skill that extracts cognitive frameworks — mental models, decision heuristics, expression DNA — from any public figure into a runnable perspective skill. Let Musk, Naval, Munger, Feynman work for you.
+Nuwa is a Claude Code skill that extracts cognitive frameworks — mental models, decision heuristics, expression DNA — from any public figure into a runnable perspective skill.
 
 Not role-playing. Cognitive architecture extraction.
 
